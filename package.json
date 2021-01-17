@@ -16,7 +16,7 @@
     "bugs": {
         "url": "https://github.com/Mubadara-Web/Website/issues"
     },
-    "homepage": "https://github.com/Mubadara-Web/Website/views/landing.ejs",
+    "homepage": "https://github.com/Mubadara-Web/Website#readme",
     "dependencies": {
         "ejs": "^3.1.5",
         "express": "^4.17.1",
