@@ -4,7 +4,7 @@
     "description": "This document to describe the tools and process used to develop this project",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
+        "test": "mocha spec",
         "start": "node index.js"
     },
     "repository": {
