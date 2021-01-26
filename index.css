@@ -1,0 +1,133 @@
+:root {
+    --blue:#2cc3f8;  
+}
+
+.hand:hover {
+    cursor: pointer;
+}
+
+body{
+    margin:0;
+    padding: 0;
+}
+
+.header_wrapper {
+    width: 100%;
+    height: 400px;
+    background-image: url("Muster/Header\ Backgrounds/Basic Bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.BG_filter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("Muster/Header\ Backgrounds/filter.png");
+    opacity: 0.15;
+}
+
+.navigation {
+    width:90%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    height: 40px;
+    padding: 15px 20px 0;
+    position: relative;
+    top: 55px;
+    overflow: hidden;
+}
+
+#MubadraPNG {
+    display: block;
+    transform: translateY(-5px);
+    max-height: 80px;
+    width: 80px;
+}
+
+.navigation ul li{
+    text-align: center;
+    display: inline-block;
+    margin-right: 50px;
+    position: relative;
+    height: 25px;
+    padding: 0 3px;
+    overflow: hidden;
+    transform: translateY(-5px);
+}
+
+.navigation ul li a {
+    color: #000000;
+    font-size: 1.3rem;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.navigation ul li:hover a {
+    color: var(--blue);
+    font-weight: 600;
+    transition: all 0.20s;
+}
+
+.navigation ul li::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--blue);
+    transition: width 0.50s;
+}
+
+.navigation ul li:hover::after {
+    width: 100%;
+}
+
+.navigation ul li a.ch-item--color {
+    font-weight: 600;
+    color: var(--blue);
+}
+
+.navigation ul li:first-child::after {
+    width: 100%;
+}
+
+#flag {
+    transform: translateY(-5px);
+    width:55px;
+    max-height: 45px;
+}
+
+#Header_photo {
+    position: absolute;
+    bottom: -100px;
+    right: 50px;
+}
+
+.BG_changer {
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.BGSpans {
+    display: inline-block;
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 15px;
+    border: 3px solid var(--blue);
+}
+
+.bks--blue {
+    background-color: var(--blue);
+}
