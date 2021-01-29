@@ -7,7 +7,7 @@
         "test": "node node_modules/mocha/mocha.js",
         "start": "node index.js",
         "predeploy": "npm run build",
-        "deploy": "main"
+        "deploy": "main -d views"
     },
     "repository": {
         "type": "git",
