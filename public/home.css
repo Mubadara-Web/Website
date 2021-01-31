@@ -1,20 +1,20 @@
 :root {
-    --blue:#2cc3f8;  
+    --blue: #2cc3f8;
 }
 
 .hand:hover {
     cursor: pointer;
 }
 
-body{
-    margin:0;
+body {
+    margin: 0;
     padding: 0;
 }
 
 .header_wrapper {
     width: 100%;
     height: 400px;
-    background-image: url("Muster/Header\ Backgrounds/Basic Bg.png");
+    background-image: url("Muster/HeaderBackgrounds/Basic Bg.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -27,12 +27,12 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    background: url("Muster/Header\ Backgrounds/filter.png");
+    background: url("Muster/HeaderBackgrounds/filter.png");
     opacity: 0.15;
 }
 
 .navigation {
-    width:90%;
+    width: 90%;
     background-color: #ffffff;
     display: flex;
     justify-content: space-between;
@@ -52,7 +52,7 @@ body{
     width: 80px;
 }
 
-.navigation ul li{
+.navigation ul li {
     text-align: center;
     display: inline-block;
     margin-right: 50px;
@@ -102,7 +102,7 @@ body{
 
 #flag {
     transform: translateY(-5px);
-    width:55px;
+    width: 55px;
     max-height: 45px;
 }
 
@@ -121,7 +121,7 @@ body{
 
 .BGSpans {
     display: inline-block;
-    width:20px;
+    width: 20px;
     height: 20px;
     border-radius: 50%;
     margin-right: 15px;

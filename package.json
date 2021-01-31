@@ -4,11 +4,8 @@
     "description": "This document to describe the tools and process used to develop this project",
     "main": "index.js",
     "scripts": {
-<<<<<<< HEAD
         "test": "echo \"Error: no test specified\" && exit 1",
-=======
         "test": "node node_modules/mocha/mocha.js",
->>>>>>> c3693458e54fb878b70ff35988b5b3842bcc5077
         "start": "node index.js"
     },
     "repository": {
