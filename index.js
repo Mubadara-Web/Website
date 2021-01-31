@@ -16,6 +16,26 @@ app.get("/", function(req, res) {
     res.render("home");
 });
 
+app.get("/login", function(req, res) {
+    res.render("login");
+});
+
+app.get("/register", function(req, res) {
+    res.render("register");
+});
+
+app.get("/about", function(req, res) {
+    res.render("about_us");
+});
+
+app.get("/services", function(req, res) {
+    res.render("our_services");
+});
+
+app.get("/join", function(req, res) {
+    res.render("join_us");
+});
+
 app.listen(process.env.PORT || 3000, process.env.IP, function() {
     console.log("Server is online...");
 });
