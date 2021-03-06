@@ -65,6 +65,7 @@
 	opacity: 0.8;
 	transition: opacity 0.5s;
 }
+		/* -- join us --*/
 .contents_join_us{
 	text-align: center;	
 	padding-bottom: 25px;
@@ -219,17 +220,21 @@
 		/* -- our services --*/
 .contents_our_services{
 	margin-top: 325px;
+	text-align: center;
 }
 .service{
 	margin-top:20px;
-}
-.center1{
-	margin-left 200px; ;
+	margin-bottom: 20px;
 }
 .hat {
 	max-width: 200px;
 	max-height: 200px;
 	margin: 10px 30px 0;
+	transition: 0.3s;
+}
+.hat:hover{
+	opacity: 0.8;
+	transition: opacity 0.3s;
 }
 		/* -- bootstrap --*/
 .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
