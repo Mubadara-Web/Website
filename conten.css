@@ -23,8 +23,9 @@
     justify-content: space-between;
     font-size: 1.02rem;
 }
+		/* -- team members --*/
 .contents_members{
-	padding-bottom: 10px;
+	padding-bottom: 30px;
 	overflow: hidden;
 }
 
@@ -43,16 +44,11 @@
 }
 .member_section{
 	text-align: center;
-	padding-bottom: 25px;
 
 }
-.member_name,.member_section,.index_section_title{
-
+.person{
+	text-align: center;
 }
-/*.person{
-	position: absolute;
-
-}*/
 .img-reponsive{
 	display: block;
 	max-width: 100%;
@@ -69,6 +65,7 @@
 	opacity: 0.8;
 	transition: opacity 0.5s;
 }
+		/* -- join us --*/
 .contents_join_us{
 	text-align: center;	
 	padding-bottom: 25px;
@@ -80,8 +77,8 @@
 }
 
 .button_rounded {
-	background-color: #0066ff; 
-	border: solid 1px #0066ff; 
+	background-color: #0099ff; 
+	border: solid 2px #0099ff; 
 	border-radius: 25px;
 	color: white;
 	text-align: center;
@@ -90,23 +87,25 @@
 	font-size: 16px;
 	margin: 4px 2px;
 	cursor: pointer;
-	padding: 8px 20px;
+	padding: 5px 20px;
 	transition: 0.5s;
 }
 .button_rounded:hover{
 	background-color: white; 
-	color:  #0066ff;
+	color:  #0099ff;
 	transition: 0.5s;
 	/*border: solid 1px #ff0000;*/
 }
 .button_rounded:active{
 	background-color: #003366 ;
+	border: solid 2px #003366; 
 	color:  white;
 }
+		/* -- happy students --*/
 .button_simple{
 	background-color: white; 
-	border: solid 1px #0066ff; 
-	color: #0066ff;
+	border: solid 2px #0099ff; 
+	color: #0099ff;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
@@ -117,7 +116,7 @@
 	transition: 0.5s;
 }
 .button_simple:hover{
-	background-color: #0066ff; 
+	background-color: #0099ff; 
 	color:  white;
 	transition: 0.5s;
 	/*border: solid 1px #ff0000;*/
@@ -127,9 +126,6 @@
 	color:  white;
 }
 
-.contents_siction{
-
-}
 #square_border_blue{
 	border: solid 4px #0099ff;
 	/*border-radius: 5px;*/
@@ -169,12 +165,16 @@
 	z-index:-2;
 	position: absolute;
 }
+		/* -- about us --*/
 .contents_about_us{
 	margin-top: 400px;
 	display: inline-block;
 }
 .contents_about_us .index_section_title{
 	text-align: left;
+}
+.contents_about_us p{
+	margin-bottom: 15px;
 }
 #italic_border{
 	background-color: white;
@@ -188,25 +188,26 @@
 }
 .button_simple{
 	background-color: white; 
-	border: solid 1px #0066ff; 
-	color: #0066ff;
+	border: solid 2px #0099ff; 
+	border-radius: 2px;
+	color: #0099ff;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
 	font-size: 16px;
-	margin: 20px 0 0 0 ;
 	cursor: pointer;
-	padding: 8px 30px;
+	padding: 5px 20px;
 	transition: 0.5s;
 }
 .button_simple:hover{
-	background-color: #0066ff; 
+	background-color: #0099ff; 
 	color:  white;
 	transition: 0.5s;
 	/*border: solid 1px #ff0000;*/
 }
 .button_simple:active{
 	background-color: #003366 ;
+	border: solid 2px #003366; 
 	color:  white;
 }
 .about_us_pic img{
@@ -216,11 +217,26 @@
 	left: 700px;
 	z-index: -1;
 }
-.pic_1{
-
+		/* -- our services --*/
+.contents_our_services{
+	margin-top: 325px;
+	text-align: center;
 }
-.row {
+.service{
+	margin-top:20px;
+	margin-bottom: 20px;
 }
+.hat {
+	max-width: 200px;
+	max-height: 200px;
+	margin: 10px 30px 0;
+	transition: 0.5s;
+}
+.hat:hover{
+	opacity: 0.8;
+	transition: opacity 0.5s;
+}
+		/* -- bootstrap --*/
 .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
 	position: relative;
 	min-height: 1px;
