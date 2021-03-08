@@ -22,12 +22,41 @@ body{
 }
 
 @keyframes chbackground {
-    50% {
-        background: url("Muster/Header\ Backgrounds/4-E.jpg")   no-repeat;
+    35% {
+        background: url("Muster/Header\ Backgrounds/2.jpg")   no-repeat;
+        background-position: center;
+        background-size: 100% 100vh;
+    }
+
+    70%{
+        background: url("Muster/Header\ Backgrounds/3.jpg")   no-repeat;
+        background-position: center;
+        background-size: 100% 100vh;
+    }
+
+    100%{
+        background: url("Muster/Header\ Backgrounds/3.jpg")   no-repeat;
         background-position: center;
         background-size: 100% 100vh;
     }
 }
+
+
+@keyframes chbackground2 {
+
+    35%{
+        background: url("Muster/Header\ Backgrounds/3.jpg")   no-repeat;
+        background-position: center;
+        background-size: 100% 100vh;
+    }
+
+    100%{
+        background: url("Muster/Header\ Backgrounds/3.jpg")   no-repeat;
+        background-position: center;
+        background-size: 100% 100vh;
+    }
+}
+
 
 .BG_filter {
     position: absolute;
@@ -138,4 +167,5 @@ body{
 
 .bks--blue {
     background-color: var(--blue);
+    transform: scale(1.2);
 }
