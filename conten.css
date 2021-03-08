@@ -54,7 +54,7 @@
 
 }*/
 .img-reponsive{
-	display: block;*/
+	display: block;
 	max-width: 100%;
 	height: auto;
 }
@@ -136,7 +136,7 @@
 	height: 200px;
 	width: 200px;
 	margin: 15px 0 0 150px;
-	position: absolute;*/
+	position: absolute;
 	z-index: -1;
 }
 #square_border{
@@ -147,7 +147,7 @@
 	margin: 45px 0 0 200px;
 	padding: 30px 15px;
 	text-align: justify;
-	position: absolute;*/
+	position: absolute;
 }
 #rectangle_border{
 	background-color: white;
@@ -158,7 +158,7 @@
 	padding: 45px 30px 15px 80px;
 	text-align: justify;
 	z-index: -1;
-	position: absolute;*/
+	position: absolute;
 }
 #square_border_red{
 	border: solid 4px #ff0000;
@@ -167,7 +167,7 @@
 	width: 200px;
 	margin: 135px 0 0 620px;
 	z-index:-2;
-	position: absolute;*/
+	position: absolute;
 }
 .contents_about_us{
 	margin-top: 400px;
