@@ -15,7 +15,7 @@ body{
 .header_wrapper {
     width: 100%;
     height: 500px;
-    background: url("Muster/Header\ Backgrounds/basic\ BG.png")   no-repeat;
+    background: url("../Muster/Header\ Backgrounds/basic\ BG.png")   no-repeat;
     background-position: center;
     background-size: 100% 100vh;
     position: relative;
@@ -23,13 +23,13 @@ body{
 
 @keyframes chbackground {
     35% {
-        background: url("Muster/Header\ Backgrounds/2.jpg")   no-repeat;
+        background: url("../Muster/Header\ Backgrounds/2.jpg")   no-repeat;
         background-position: center;
         background-size: 100% 100vh;
     }
 
     70%{
-        background: url("Muster/Header\ Backgrounds/3.jpg")   no-repeat;
+        background: url("../Muster/Header\ Backgrounds/3.jpg")   no-repeat;
         background-position: center;
         background-size: 100% 100vh;
     }
