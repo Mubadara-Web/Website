@@ -18,3 +18,9 @@ function changeck(){
         repeat++;
     }
 }
+
+
+window.addEventListener("scroll",function (){
+    const headerNavi=document.querySelector(".navigation");
+    headerNavi.classList.toggle("navi_Scroll",window.scrollY>90);
+})
