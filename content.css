@@ -29,6 +29,15 @@
 	overflow: hidden;
 }
 
+.center {
+	width: 90%;
+	margin: 15px auto;
+}
+
+.center_width {
+	width: 80%;
+}
+
 .index_section_title{
 	text-transform: uppercase;
 	color: #cc0000;
@@ -126,13 +135,21 @@
 	color:  white;
 }
 
+.square {
+	display: flex;
+}
+
+.contents_siction {
+	position: relative;
+}
+
 #square_border_blue{
 	border: solid 4px #0099ff;
 	/*border-radius: 5px;*/
 	height: 200px;
 	width: 200px;
-	margin: 15px 0 0 150px;
-	position: absolute;
+	margin: 15px 0 0 0;
+	transform: translateX(150px);
 	z-index: -1;
 }
 #square_border{
@@ -140,35 +157,39 @@
 	border: solid 3px #003366;
 	height: 150px;
 	width: 190px;
-	margin: 45px 0 0 200px;
+	margin: 45px 0 0 0px;
 	padding: 30px 15px;
 	text-align: justify;
-	position: absolute;
+	transform: translateX(-10px);
 }
 #rectangle_border{
 	background-color: white;
 	border: solid 3px black;
 	height: 140px;
 	width: 300px; 
-	margin: 105px 0 0 360px;
+	margin: 105px 0 0 0;
 	padding: 45px 30px 15px 80px;
 	text-align: justify;
 	z-index: -1;
-	position: absolute;
+	transform: translateX(-50px);
 }
 #square_border_red{
 	border: solid 4px #ff0000;
 	/*border-radius: 5px*/
 	height: 200px;
 	width: 200px;
-	margin: 135px 0 0 620px;
+	margin: 135px 0 0 0px;
+	left:590px;
+	transform: translateX(-215px);
 	z-index:-2;
-	position: absolute;
+}
+
+.clear {
+	clear: both;
 }
 		/* -- about us --*/
 .contents_about_us{
-	margin-top: 400px;
-	display: inline-block;
+	margin-top: 75px;
 }
 .contents_about_us .index_section_title{
 	text-align: left;
@@ -177,14 +198,16 @@
 	margin-bottom: 15px;
 }
 #italic_border{
+	float: left;
+	display: inline-block;
 	background-color: white;
 	border: solid 4px #0099ff;
 	/*border-radius: 5px;*/
 	height: auto;
-	max-width: 450px;
+	max-width: calc(50% - 30px);
 	padding: 20px 50px 30px 50px;
 	text-align: justify;
-	position: absolute;
+	transform: translateX(30px);
 }
 .button_simple{
 	background-color: white; 
@@ -210,16 +233,30 @@
 	border: solid 2px #003366; 
 	color:  white;
 }
+
+.about_us_pic {
+	float: left;
+	width: calc(50% - 80px);
+	height: 100%;
+	position: relative;
+}
+
 .about_us_pic img{
-	height: auto;
-	width: 450px;
-	position: absolute;
-	left: 700px;
+	height: 300px;
+	width:100%;
 	z-index: -1;
+	position: absolute;
+}
+
+.about_us_pic .pic_1 {
+	width:400px;
+	height:350px;
+	transform: translate(-20px,-20px);
+	filter:opacity(60%)
 }
 		/* -- our services --*/
 .contents_our_services{
-	margin-top: 325px;
+	margin-top: 100px;
 	text-align: center;
 }
 .service{
