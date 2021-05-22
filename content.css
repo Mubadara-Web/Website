@@ -1,0 +1,353 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+}
+/*p{
+	font-size: 12px;
+}*/
+
+.contents_wrapper{
+	height: auto;
+	width: auto;
+	padding: 15px;
+
+}
+
+.contents_container{
+	height: auto;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+   /* display: inline-block;*/
+    justify-content: space-between;
+    font-size: 1.02rem;
+}
+		/* -- team members --*/
+.contents_members{
+	padding-bottom: 30px;
+	overflow: hidden;
+}
+
+.center {
+	width: 90%;
+	margin: 15px auto;
+}
+
+.center_width {
+	width: 80%;
+}
+
+.index_section_title{
+	text-transform: uppercase;
+	color: #cc0000;
+	padding: 10px;
+	margin: 0;
+	text-align: center;
+	font-weight: bold;
+}
+.member_name{
+	color: black;
+	text-align: center;	
+	font-weight: bold;
+}
+.member_section{
+	text-align: center;
+
+}
+.person{
+	text-align: center;
+}
+.img-reponsive{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+.img-circle {
+	max-width: 150px;
+	max-height: 150px;
+	border-radius: 50%;
+	/*box-shadow: 3px;*/
+	transition: 0.5s;
+}
+.img-circle:hover {
+	opacity: 0.8;
+	transition: opacity 0.5s;
+}
+		/* -- join us --*/
+.contents_join_us{
+	text-align: center;	
+	padding-bottom: 25px;
+}
+.contents_join_us p{
+	text-align: center;
+	padding-bottom: 10px;
+	font-size: 18px;
+}
+
+.button_rounded {
+	background-color: #0099ff; 
+	border: solid 2px #0099ff; 
+	border-radius: 25px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	padding: 5px 20px;
+	transition: 0.5s;
+}
+.button_rounded:hover{
+	background-color: white; 
+	color:  #0099ff;
+	transition: 0.5s;
+	/*border: solid 1px #ff0000;*/
+}
+.button_rounded:active{
+	background-color: #003366 ;
+	border: solid 2px #003366; 
+	color:  white;
+}
+		/* -- happy students --*/
+.button_simple{
+	background-color: white; 
+	border: solid 2px #0099ff; 
+	color: #0099ff;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 0px;
+	cursor: pointer;
+	padding: 8px 30px;
+	transition: 0.5s;
+}
+.button_simple:hover{
+	background-color: #0099ff; 
+	color:  white;
+	transition: 0.5s;
+	/*border: solid 1px #ff0000;*/
+}
+.button_simple:active{
+	background-color: #003366 ;
+	color:  white;
+}
+
+.square {
+	display: flex;
+}
+
+.contents_siction {
+	position: relative;
+}
+
+#square_border_blue{
+	border: solid 4px #0099ff;
+	/*border-radius: 5px;*/
+	height: 200px;
+	width: 200px;
+	margin: 15px 0 0 0;
+	transform: translateX(150px);
+	z-index: -1;
+}
+#square_border{
+	background-color: white;
+	border: solid 3px #003366;
+	height: 150px;
+	width: 190px;
+	margin: 45px 0 0 0px;
+	padding: 30px 15px;
+	text-align: justify;
+	transform: translateX(-10px);
+}
+#rectangle_border{
+	background-color: white;
+	border: solid 3px black;
+	height: 140px;
+	width: 300px; 
+	margin: 105px 0 0 0;
+	padding: 45px 30px 15px 80px;
+	text-align: justify;
+	z-index: -1;
+	transform: translateX(-50px);
+}
+#square_border_red{
+	border: solid 4px #ff0000;
+	/*border-radius: 5px*/
+	height: 200px;
+	width: 200px;
+	margin: 135px 0 0 0px;
+	left:590px;
+	transform: translateX(-215px);
+	z-index:-2;
+}
+
+.clear {
+	clear: both;
+}
+		/* -- about us --*/
+.contents_about_us{
+	margin-top: 75px;
+}
+.contents_about_us .index_section_title{
+	text-align: left;
+}
+.contents_about_us p{
+	margin-bottom: 15px;
+}
+#italic_border{
+	float: left;
+	display: inline-block;
+	background-color: white;
+	border: solid 4px #0099ff;
+	/*border-radius: 5px;*/
+	height: auto;
+	max-width: calc(50% - 30px);
+	padding: 20px 50px 30px 50px;
+	text-align: justify;
+	transform: translateX(30px);
+}
+.button_simple{
+	background-color: white; 
+	border: solid 2px #0099ff; 
+	border-radius: 2px;
+	color: #0099ff;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	padding: 5px 20px;
+	transition: 0.5s;
+}
+.button_simple:hover{
+	background-color: #0099ff; 
+	color:  white;
+	transition: 0.5s;
+	/*border: solid 1px #ff0000;*/
+}
+.button_simple:active{
+	background-color: #003366 ;
+	border: solid 2px #003366; 
+	color:  white;
+}
+
+.about_us_pic {
+	float: left;
+	width: calc(50% - 80px);
+	height: 100%;
+	position: relative;
+}
+
+.about_us_pic img{
+	height: 300px;
+	width:100%;
+	z-index: -1;
+	position: absolute;
+}
+
+.about_us_pic .pic_1 {
+	width:400px;
+	height:350px;
+	transform: translate(-20px,-20px);
+	filter:opacity(60%)
+}
+		/* -- our services --*/
+.contents_our_services{
+	margin-top: 100px;
+	text-align: center;
+}
+.service{
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+.hat {
+	max-width: 200px;
+	max-height: 200px;
+	margin: 10px 30px 0;
+	transition: 0.5s;
+}
+.hat:hover{
+	opacity: 0.8;
+	transition: opacity 0.5s;
+}
+		/* -- bootstrap --*/
+.col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+	position: relative;
+	min-height: 1px;
+}
+.col-xs-12 {
+	float: left;
+}
+.col-xs-12 {
+	width: 100%;
+}
+@media (min-width: 768px) {
+.col-sm-3, .col-sm-4, .col-sm-6, .col-sm-12 {
+    float: left;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+   .col-sm-6 {
+    width: 50%;
+  }
+   .col-sm-4 {
+    width: 33.33333333%;
+  }
+   .col-sm-3 {
+    width: 25%;
+  }
+
+}
+@media (min-width: 992px) {
+.col-md-3, .col-md-4, .col-md-6, .col-md-12 {
+    float: left;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+   .col-md-6 {
+    width: 50%;
+  }
+   .col-md-4 {
+    width: 33.33333333%;
+  }
+   .col-md-3 {
+    width: 25%;
+  }
+ 
+}
+@media (min-width: 1200px) {
+.col-lg-3, .col-lg-4, .col-lg-6, .col-lg-12 {
+    float: left;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+   .col-lg-6 {
+    width: 50%;
+  }
+   .col-lg-4 {
+    width: 33.33333333%;
+  }
+   .col-lg-3 {
+    width: 25%;
+  }
+}
+/*@media (max-width: 990px){
+ #square_border_blue{
+	margin: 15px 0 0 120px;
+ }
+ #square_border{
+ 	margin: 45px 0 0 120px;
+ }
+ #rectangle_border{
+ 	margin: 105px 0 0 280px;
+ }
+ #square_border_blue{
+	margin: 135px 0 0 535px;
+ }
+}*/

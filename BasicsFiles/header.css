@@ -1,0 +1,192 @@
+:root {
+    --blue:#2cc3f8;  
+}
+
+.hand:hover {
+    cursor: pointer;
+}
+
+body{
+    margin:0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.header_wrapper {
+    width: 100%;
+    height: 500px;
+    background: url("../Muster/Header\ Backgrounds/basic\ BG.png")   no-repeat;
+    background-position: center;
+    background-size: 100% 100vh;
+    position: relative;
+}
+
+@keyframes chbackground {
+    35% {
+        background: url("../Muster/Header\ Backgrounds/2.jpg")   no-repeat;
+        background-position: center;
+        background-size: 100% 100vh;
+    }
+
+    70%{
+        background: url("../Muster/Header\ Backgrounds/3.jpg")   no-repeat;
+        background-position: center;
+        background-size: 100% 100vh;
+    }
+
+    100%{
+        background: url("../Muster/Header\ Backgrounds/3.jpg")   no-repeat;
+        background-position: center;
+        background-size: 100% 100vh;
+    }
+}
+
+
+@keyframes chbackground2 {
+
+    35%{
+        background: url("Muster/Header\ Backgrounds/3.jpg")   no-repeat;
+        background-position: center;
+        background-size: 100% 100vh;
+    }
+
+    100%{
+        background: url("Muster/Header\ Backgrounds/3.jpg")   no-repeat;
+        background-position: center;
+        background-size: 100% 100vh;
+    }
+}
+
+
+.BG_filter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../Muster/Header\ Backgrounds/Filter.png");
+    opacity: 0.12;
+}
+
+
+.navigation {
+    width:90%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    height: 40px;
+    padding: 15px 20px 0;
+    position: fixed;
+    top: 55px;
+    left: 4%;
+    overflow: hidden;
+    transition: 1s width, 1s height,1s left,1s padding;
+    animation: opacityani 1s 0.50s forwards ease-in;
+    opacity: 0;
+}
+
+.navi_Scroll{
+    padding:8px 20px 0;
+    z-index: 100000;
+    position:fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0 2px 30px 1px black;
+    padding: 15px 0 0;
+}
+
+.navi_Scroll #MubadraPNG {
+    transform: translate(20px,-5px);
+}
+
+.navi_Scroll #flag {
+    transform: translate(-20px,-5px);
+}
+@keyframes opacityani {
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#MubadraPNG {
+    display: block;
+    transform: translate(0,-5px);
+    max-height: 80px;
+    width: 80px;
+}
+
+.navigation ul li{
+    text-align: center;
+    display: inline-block;
+    margin-right: 50px;
+    position: relative;
+    height: 25px;
+    padding: 0 3px;
+    overflow: hidden;
+    transform: translateY(-5px);
+}
+
+.navigation ul li a {
+    color: #000000;
+    font-size: 1.3rem;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.navigation ul li::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--blue);
+    transition: width 0.50s;
+}
+
+.navigation ul li:hover::after {
+    width: 100%;
+}
+
+.navigation ul li a.ch-item--color {
+    font-weight: 600;
+    color: var(--blue);
+}
+
+#flag {
+    transform: translate(0,-5px);
+    width:55px;
+    max-height: 45px;
+}
+
+#Header_photo {
+    position: absolute;
+    bottom: -100px;
+    right: 50px;
+}
+
+.BG_changer {
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.BGSpans {
+    display: inline-block;
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 15px;
+    border: 3px solid var(--blue);
+    transition: 1s background-color;
+}
+
+.bks--blue {
+    background-color: var(--blue);
+    transform: scale(1.2);
+}
